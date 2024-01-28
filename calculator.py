@@ -14,6 +14,9 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
+def mod(a, b):
+    return a % b
+
 def main():
     print(add(10, 2))
     print(sub(10, 2))
